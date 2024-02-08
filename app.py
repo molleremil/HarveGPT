@@ -94,7 +94,7 @@ def get_response(query):
 
 
 # Start the chat
-print("Welcome to the WebChat!")
+print("Welcome to HarveGPT!")
 
 
 # Get the URL
@@ -103,9 +103,7 @@ url = input("Please enter a link (URL): ")
 
 # User input
 if url.strip() != "" or url is not None:
-    chat_history = [
-        AIMessage(content="Hello! How can I help you?\n")
-    ]
+    chat_history = []
 else:
     print("Please enter a link to start the chat.")
 
