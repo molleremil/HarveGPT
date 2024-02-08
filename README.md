@@ -7,6 +7,15 @@ A RAG-pipeline powered app designed to scrape data from URLs, embed and store it
 **How it works:**
 Initialize the chat by pasting in a URL and ask questions. Additionally, you can ask for simplified explanations to outputted answers.
 
+<img width="234" alt="Screenshot 2024-02-08 at 13 57 14" src="https://github.com/molleremil/HarveGPT/assets/139823248/6ee1bf25-c7d6-488e-a0df-bc186567c6bf">
+
+      |
+      V
+
+<img width="948" alt="Screenshot 2024-02-08 at 14 03 22" src="https://github.com/molleremil/HarveGPT/assets/139823248/5d91db05-4812-4031-b638-aa83e6f4429a">
+
+
+
 The app utilizes the open source model mistralai/Mixtral-8x7B-Instruct-v0.1 from HuggingFaceHub in connection with Qdrant vectorstore, running on local mode (with in-memory storage only). 
 It's already giving realitively fast and precise results, when being asked questions about long documents:
 
