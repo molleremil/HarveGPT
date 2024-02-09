@@ -1,4 +1,4 @@
-**HarveGPT** *Harvests data from websites and enables users to chat with it*
+**HarveGPT:** *Harvest data from websites and chat with it*
 
 A RAG-pipeline powered app designed to scrape data from URLs, embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
 
