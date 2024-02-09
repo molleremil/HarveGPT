@@ -8,7 +8,6 @@ from langchain.chains import create_history_aware_retriever, create_retrieval_ch
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from dotenv import load_dotenv
 
-from langchain_community.chat_models.huggingface import ChatHuggingFace
 
 # Load secrets from .env file
 load_dotenv()
