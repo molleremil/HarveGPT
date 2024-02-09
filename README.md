@@ -5,7 +5,7 @@ A RAG-pipeline powered app designed to scrape data from URLs, embed and store it
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 **How it works:**
-Initialize the chat by pasting in a URL and ask questions. At the moment, HarveGPT is able to distinguish between websites with text based content and youtube URL's and retrieve data from given source.
+Initialize the chat by pasting in a URL and ask questions. At the moment, HarveGPT is able to distinguish between websites with text based content and YouTube URL's and retrieve data from given source.
 
 <img width="234" alt="Screenshot 2024-02-08 at 13 57 14" src="https://github.com/molleremil/HarveGPT/assets/139823248/6ee1bf25-c7d6-488e-a0df-bc186567c6bf">
 
