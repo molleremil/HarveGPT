@@ -9,7 +9,8 @@ A RAG-pipeline powered app designed to scrape data from URLs, embed and store it
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 **SETUP:**
-Create a .env file to hold your secrets as:
+
+- Create a .env file to hold your secrets as:
 OPENAI_API_KEY = "*token*"
 - Download `app.py` and `harve_funcs.py` and finally execute `app.py` to start the program.
 
