@@ -4,6 +4,9 @@ A RAG-pipeline powered app designed to scrape data from URLs, embed and store it
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
+**NOTE:** Create a .env file to hold your secrets as:
+HUGGINGFACEHUB_API_TOKEN = "*token*"
+
 **How it works:**
 Initialize the chat by pasting in a URL and ask questions. At the moment, HarveGPT is able to distinguish between websites with text based content and YouTube URL's and retrieve data from given source.
 
