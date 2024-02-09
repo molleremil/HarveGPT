@@ -4,6 +4,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 import os
 import sys
 
+
 # Start the chat
 print("Welcome to HarveGPT!")
 
@@ -36,7 +37,8 @@ def input_url():
         # Chat loop
         keep_chatting = True
         while keep_chatting:
-            user_input = input("Type a message (or type 'exit' to quit):\n")
+            user_input = input(
+                "\nOPTIONS:\n> Type 'exit' to quit\n> Type 'restart' to enter a new URL\n\nType your message: ")
             if user_input.lower().strip() == "exit":
                 keep_chatting = False
             elif user_input.lower().strip() == "restart":
