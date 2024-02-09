@@ -1,11 +1,15 @@
+// UPDATE: For the time being, the model used in the app is ChatOpenAI for smoother interaction. Currently working on reimplementing an open source model for similar performance. 
+
 **HarveGPT:** *Harvest data from websites and chat with it*
 
 A RAG-pipeline powered app designed to scrape data from URLs, embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-**NOTE:** Create a .env file to hold your secrets as:
-HUGGINGFACEHUB_API_TOKEN = "*token*"
+**SETUP:**
+Create a .env file to hold your secrets as:
+OPENAI_API_KEY = "*token*"
+- Download `app.py` and `harve_funcs.py` and finally execute `app.py` to start the program.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
