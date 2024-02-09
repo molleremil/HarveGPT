@@ -1,4 +1,6 @@
-// UPDATE: For the time being, the model used in the app is ChatOpenAI for smoother interaction. Currently working on reimplementing an open source model for similar performance. 
+*UPDATE: For the time being, the model used in the app is ChatOpenAI for smoother interaction. Currently working on reimplementing an open source model for similar performance.* 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 **HarveGPT:** *Harvest data from websites and chat with it*
 
