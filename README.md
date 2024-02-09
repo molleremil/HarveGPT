@@ -20,14 +20,26 @@ OPENAI_API_KEY = "*token*"
 **How it works:**
 Initialize the chat by pasting in a URL and ask questions. At the moment, HarveGPT is able to distinguish between websites with text based content and YouTube URL's and retrieve data from given source.
 
+**DEMO:**
+
+*Start message:*
+
 <img width="234" alt="Screenshot 2024-02-08 at 13 57 14" src="https://github.com/molleremil/HarveGPT/assets/139823248/6ee1bf25-c7d6-488e-a0df-bc186567c6bf">
 
-      |
-      V
+*After inputting URL:*
 
-<img width="948" alt="Screenshot 2024-02-08 at 14 03 22" src="https://github.com/molleremil/HarveGPT/assets/139823248/5d91db05-4812-4031-b638-aa83e6f4429a">
+<img width="1140" alt="Screenshot 2024-02-09 at 17 33 45" src="https://github.com/molleremil/HarveGPT/assets/139823248/0d8eb602-d71f-489a-bbad-254ed3af9923">
+
+*Query & Response:*
+
+<img width="1188" alt="Screenshot 2024-02-09 at 17 35 18" src="https://github.com/molleremil/HarveGPT/assets/139823248/e6b5b5c0-978e-4548-b556-d00682e60184">
 
 
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+**PREVIOUS VERSION**
 
 The app utilizes the open source model mistralai/Mixtral-8x7B-Instruct-v0.1 from HuggingFaceHub in connection with Qdrant vectorstore, running on local mode (with in-memory storage only). 
 It's already giving realitively fast and precise results, when being asked questions about long documents:
