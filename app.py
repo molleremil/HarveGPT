@@ -1,5 +1,4 @@
-# STREAMLIT VERSION 2.1 - PDF WORKING
-
+# STREAMLIT VERSION 2.1
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
