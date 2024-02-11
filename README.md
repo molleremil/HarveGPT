@@ -19,9 +19,13 @@ A RAG-pipeline powered app designed to scrape data from URLs (including YouTube 
 - Create a .env file to hold your secrets as:
 OPENAI_API_KEY = "*token*"
 
-- Then run the script by typing following in your CLI:
+- Install the requirements by typing following in your CLI:
+  
+| pip install -r requirements.txt
 
-streamlit run app.py
+- Then finally run the script by typing following in your CLI:
+
+| streamlit run app.py 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
