@@ -1,10 +1,16 @@
 *UPDATE: For the time being, the model used in the app is ChatOpenAI for smoother interaction. Currently working on reimplementing an open source model for similar performance.* 
 
+**: PDF functionality added. Harve can now chat about your PDF files.** *Check it out on HuggingFace spaces:* https://huggingface.co/spaces/emgoggles/HarveGPT
+
+Demo:
+
+<img width="1378" alt="Screenshot 2024-02-11 at 19 25 01" src="https://github.com/molleremil/HarveGPT/assets/139823248/d0601d3e-c149-4ec1-b780-c1863c9a9661">
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-**HarveGPT:** *Harvest data from websites and chat with it*
+**HarveGPT:** *Harvest a source and chat with it*
 
-A RAG-pipeline powered app designed to scrape data from URLs, embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
+A RAG-pipeline powered app designed to scrape data from URLs (including YouTube video transcripts), embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -12,28 +18,17 @@ A RAG-pipeline powered app designed to scrape data from URLs, embed and store it
 
 - Create a .env file to hold your secrets as:
 OPENAI_API_KEY = "*token*"
-- Download `app.py` and `harve_funcs.py`
-- Execute `app.py` to start the program.
+
+- Then run the script by typing following in your CLI:
+
+streamlit run app.py
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 **How it works:**
-Initialize the chat by pasting in a URL and ask questions. At the moment, HarveGPT is able to distinguish between websites with text based content and YouTube URL's and retrieve data from given source.
+Initialize the chat by providing the app a data source in form of a URL, YouTube URL or by uploading a PDF file. Then start asking questions. 
 
-**DEMO:**
-
-*Start message:*
-
-<img width="234" alt="Screenshot 2024-02-08 at 13 57 14" src="https://github.com/molleremil/HarveGPT/assets/139823248/6ee1bf25-c7d6-488e-a0df-bc186567c6bf">
-
-*After inputting URL:*
-
-<img width="1140" alt="Screenshot 2024-02-09 at 17 33 45" src="https://github.com/molleremil/HarveGPT/assets/139823248/0d8eb602-d71f-489a-bbad-254ed3af9923">
-
-*Query & Response:*
-
-<img width="1188" alt="Screenshot 2024-02-09 at 17 35 18" src="https://github.com/molleremil/HarveGPT/assets/139823248/e6b5b5c0-978e-4548-b556-d00682e60184">
-
+<img width="1379" alt="Screenshot 2024-02-11 at 22 21 45" src="https://github.com/molleremil/HarveGPT/assets/139823248/efd3d292-bb02-4a09-b8d7-7f5b50b2da4e">
 
 
 
