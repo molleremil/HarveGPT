@@ -21,11 +21,11 @@ OPENAI_API_KEY = "*token*"
 
 - Install the requirements by typing following in your CLI:
   
-  pip install -r requirements.txt
+      pip install -r requirements.txt
 
 - Then finally run the script by typing following in your CLI:
 
-  streamlit run app.py 
+      streamlit run app.py 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
