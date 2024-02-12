@@ -10,7 +10,7 @@ Demo:
 
 **HarveGPT:** *Harvest a source and chat with it*
 
-A RAG-pipeline powered app designed to scrape data from URLs (including YouTube video transcripts), embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
+A RAG-pipeline powered app designed to scrape data from URLs (including YouTube video transcripts), or extract PDF text content, embed and store it in a vectorstore, capture the semantics of a user query and perform a similarity search against the stored data.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
